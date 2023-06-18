@@ -1,3 +1,4 @@
+import dash 
 from dash import Dash, html, dcc, Input, Output
 import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import load_figure_template 
