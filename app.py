@@ -1,5 +1,5 @@
-import dash 
-from dash import Dash, html, dcc, Input, Output
+from dash import Dash
+from dash import html, dcc, Input, Output
 import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import load_figure_template 
 
