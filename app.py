@@ -42,6 +42,8 @@ git_hub = html.A(
 )
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.ZEPHYR])
+server = app.server
+
 load_figure_template('zephyr')
 
 app.layout = html.Div(
